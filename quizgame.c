@@ -165,8 +165,8 @@ int main()
             goto game;
         }
     game:
-        countr = 0;
-        for (i = 1; i <= 10; i++)
+        count = 0;
+        for (i = 1; i <= 20; i++)
         {
             system("cls");
             r = i;
@@ -179,7 +179,7 @@ int main()
                 if (toupper(getch()) == 'C')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                     getch();
@@ -197,7 +197,7 @@ int main()
                 if (toupper(getch()) == 'D')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -214,7 +214,7 @@ int main()
                 if (toupper(getch()) == 'C')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -231,7 +231,7 @@ int main()
                 if (toupper(getch()) == 'A')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -248,7 +248,7 @@ int main()
                 if (toupper(getch()) == 'B')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -265,7 +265,7 @@ int main()
                 if (toupper(getch()) == 'A')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -282,7 +282,7 @@ int main()
                 if (toupper(getch()) == 'B')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -298,7 +298,7 @@ int main()
                 if (toupper(getch()) == 'B')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -314,7 +314,7 @@ int main()
                 if (toupper(getch()) == 'A')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -330,7 +330,7 @@ int main()
                 if (toupper(getch()) == 'D')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -346,7 +346,7 @@ int main()
                 if (toupper(getch()) == 'D')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -362,7 +362,7 @@ int main()
                 if (toupper(getch()) == 'D')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -378,7 +378,7 @@ int main()
                 if (toupper(getch()) == 'A')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -394,7 +394,7 @@ int main()
                 if (toupper(getch()) == 'B')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -410,7 +410,7 @@ int main()
                 if (toupper(getch()) == 'A')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -426,7 +426,7 @@ int main()
                 if (toupper(getch()) == 'A')
                 {
                     printf("\n\nCorrect!!!");
-                    countr++;
+                    count++;
                     getch();
                     break;
                 }
@@ -513,7 +513,7 @@ int main()
         }
     score:
         system("cls");
-        score = countr;
+        score = count;
         if (score >= 2)
         {
             printf("\n\n\t\t**************** CONGRATULATION *****************");
@@ -530,7 +530,7 @@ int main()
         {
             printf("\n\n\n \t\t**************** CONGRATULATION ****************");
             printf("\n\t\t\t\t YOU ARE A HIRED");
-            printf("\n\t\t You Score 6 out of %d", score);
+            printf("\n\t\t You Score %d out of 15", score);
             printf("\t\t Thank You!!");
         }
         else
